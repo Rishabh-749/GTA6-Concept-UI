@@ -1,12 +1,81 @@
-# React + Vite
+# 🎮 GTA6 Concept UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A visually stunning GTA 6-themed landing page built with React, Vite, and Tailwind CSS. This frontend concept recreates the excitement of next-gen game UIs using modern web technologies.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎬 Demo Preview
 
-## Expanding the ESLint configuration
+![GTA 6 Demo](public/GTA_6_React.gif)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> This demo shows the full UI layout, page transitions, and design concept for a fictional GTA 6-themed landing page, as viewed on a desktop browser.
+
+---
+
+## 🚀 Project Overview
+
+This project recreates a concept UI for GTA 6 using modern frontend tools. It features modular components, animations, and a clean visual structure — suitable for frontend portfolios, UI inspiration, or landing page design practice.
+
+---
+
+## 🛠 Features
+
+- ⚛️ React-based components
+- 🌀 TailwindCSS styling
+- ⚡ Vite for fast dev & build
+- 🖼️ Static assets from `/public`
+- 🎨 Custom typography and layout
+- 🔁 Dark UI theme
+- 💻 Desktop-focused layout (non-responsive)
+
+---
+
+## 📁 Folder Structure
+
+<details> <summary>📁 <strong>Project Folder Structure</strong></summary>
+plaintext
+Copy
+Edit
+GTA6-Concept-UI/
+│
+├── public/                # Static files (e.g. images, icons, gif)
+│   └── demo.gif           # Optional: external demo (if hosted locally)
+│
+├── src/                   # React source files
+│   ├── assets/            # Images, backgrounds, logos
+│   ├── components/        # Reusable React components
+│   └── App.jsx            # Main application component
+│
+├── .gitignore             # Files & folders to ignore in Git
+├── index.html             # HTML template loaded by Vite
+├── package.json           # NPM metadata & dependencies
+├── vite.config.js         # Vite build configuration
+├── README.md              # Project documentation
+</details>
+
+
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend**: React.js, Tailwind CSS
+- **Build Tool**: Vite
+- **Language**: JavaScript (ES6+)
+- **Hosting**: GitHub Pages or Vercel (optional)
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/GTA6-Concept-UI.git
+
+# Navigate into the project
+cd GTA6-Concept-UI
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
