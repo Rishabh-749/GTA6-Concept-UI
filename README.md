@@ -32,14 +32,14 @@ This project recreates a concept UI for GTA 6 using modern frontend tools. It fe
 
 ## 📁 Folder Structure
 
-<details> <summary>📁 <strong>Project Folder Structure</strong></summary>
-plaintext
-Copy
-Edit
+<details>
+<summary>📁 <strong>Project Folder Structure</strong></summary>
+
+```plaintext
 GTA6-Concept-UI/
 │
 ├── public/                # Static files (e.g. images, icons, gif)
-│   └── demo.gif           # Optional: external demo (if hosted locally)
+│   └── demo.gif           # Optional: output demo hosted locally
 │
 ├── src/                   # React source files
 │   ├── assets/            # Images, backgrounds, logos
@@ -50,8 +50,9 @@ GTA6-Concept-UI/
 ├── index.html             # HTML template loaded by Vite
 ├── package.json           # NPM metadata & dependencies
 ├── vite.config.js         # Vite build configuration
-├── README.md              # Project documentation
-</details>
+└── README.md              # Project documentation
+```
+</details> 
 
 
 ---
