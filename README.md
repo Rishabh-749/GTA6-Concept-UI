@@ -70,7 +70,7 @@ GTA6-Concept-UI/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/GTA6-Concept-UI.git
+git clone https://github.com/Rishabh-749/GTA6-Concept-UI.git
 
 # Navigate into the project
 cd GTA6-Concept-UI
